@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Project from "./pages/Project";
-import Navbar from "./ui/Navbar";
+import Header from "./ui/Header";
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Header />
       <Routes>
         <Route index element={<HomePage />} />
         <Route path="/project" element={<Project />} />
