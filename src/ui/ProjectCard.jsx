@@ -6,7 +6,7 @@ function ProjectCard({ project }) {
   const { title, description, tools } = project;
   return (
     <>
-      <div className="flex flex-col  gap-10 rounded-md border border-slate-500   px-3 py-5 sm:px-10">
+      <div className="flex  flex-col gap-10 rounded-md border   border-slate-500 px-3 py-5 sm:px-10">
         <div className="relative flex flex-col items-center justify-center gap-5  md:flex-row">
           <div className="w-full ">
             <img
